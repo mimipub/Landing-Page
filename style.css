@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+#Logo{
+    margin: 50px;
+    margin-left: 50px;
+}
+#titulosuperior{
+    margin-left: 150px;
+    margin-top: 50;
+}
+
+#paragrafosuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+}
+
+#menusuperior{
+    background-image: url(Imagens/fundo.svg);
+    color: aliceblue;
+    padding: 100px;
+}
+#menuinformacional{
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+    
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+    
+}
+
+#textovideo{
+    color: #247BA0;
+}
+
+#video{
+    margin: 50px 25px 50px 100px
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 25px;
+}
+
+#Div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.cards{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition:0.5ms;
+}
+
+#formulario{
+    text-align: center;
+}
+
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+    
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #eaece5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+   
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #298fbb;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow:(0px 15px 20px) ;
+}
